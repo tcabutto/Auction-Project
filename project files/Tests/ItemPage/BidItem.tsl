@@ -1,0 +1,35 @@
+
+Test Case 1  		(Key = 1.1.1.1.)
+   Content :  is a number
+   Format  :  two decimal places
+   Value   :  amount >= price + 1
+   Max amt :  amount <= maxBid
+
+
+Test Case 2  		(Key = 1.1.2.1.)
+   Content :  is a number
+   Format  :  two decimal places
+   Value   :  amount <= price + 1
+   Max amt :  amount <= maxBid
+
+
+Test Case 3  		(Key = 1.2.1.1.)
+   Content :  is a number
+   Format  :  not two decimal places
+   Value   :  amount >= price + 1
+   Max amt :  amount <= maxBid
+
+
+Test Case 4  		(Key = 1.2.2.1.)
+   Content :  is a number
+   Format  :  not two decimal places
+   Value   :  amount <= price + 1
+   Max amt :  amount <= maxBid
+
+
+Test Case 5  		(Key = 2.0.0.0.)
+   Content :  not a number
+   Format  :  <n/a>
+   Value   :  <n/a>
+   Max amt :  <n/a>
+

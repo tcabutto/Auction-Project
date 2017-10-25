@@ -1,0 +1,35 @@
+#User
+ Presence of logged in:
+	Not logged in.	[error]
+	Logged in.	[property logged]
+ Presence of owner:
+	Not the owner.	[error]
+	Owner.		[property owner]
+	Manager.	[property manager]
+#Item
+ Item chosen:
+	True.	[if logged && owner || manager][property chosen]
+	False.	[single]
+#User selection
+ To be edited:
+	None.	[single]
+	Price.	[if logged && owner || manager][property price]
+	Name.	[if logged && owner || manager][property name]
+	Description.	[if logged && owner || manager][property description]
+	MaxBid.	[if logged && owner || manager][property max]
+	MinBid.	[if logged && owner || manager][property min]
+	Category.	[if logged && owner || manager][property category]
+ Format of to be edited:
+	Double.	[if price || max || min][property double]
+	String.	[if name || description || category][property string]
+	Empty.	[single]
+#User input:
+ Size:
+	Empty.	[single][property emptyinput]
+	Not empty.
+ Format:
+	Number.	[if double && !emptyinput]
+	String.	[if string && !emptyinput]
+ Submission:
+	Falied.	[error]
+	Success.

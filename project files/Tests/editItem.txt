@@ -1,0 +1,20 @@
+#editItem()
+#name, price, description, category, owner, seller
+# Name
+Name:
+	Empty.			[property empty]
+	Not empty.
+Owner:
+	Owner's name.		[if !empty][property owner]
+	No owner.		[if !empty]
+Price:
+	Is a number.		[if !empty && owner][property number]
+	Not a number.		[if !empty && owner]
+Description:
+	Description.		[if !empty && owner]
+	No description.		[if !empty && owner]
+Category:
+	Category Name.		[if !empty && owner]
+Seller:
+	Owner.			[if !empty && owner]
+	Seller's name.		[if !empty && owner]

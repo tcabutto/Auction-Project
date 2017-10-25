@@ -1,0 +1,14 @@
+#Item
+ Presence of logged in:
+	Not logged in.	[error]
+	Logged in.	[property logged]
+ Presence of chosen item:
+	Not chosen.	[single][property notchosen]
+	Chosen.		[if logged]
+ Presence of item:
+	Does not exist.	[error][if !notchosen && logged]
+	Exist.		[if !notchosen && logged]
+#Page
+ Presence of page
+	directed.	[if !notchosen && logged]
+	undirected.	[error] 

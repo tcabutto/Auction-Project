@@ -1,0 +1,54 @@
+#name
+ Size:
+	Empty.		[single][property emptyname]
+	Not empty.
+#key
+ Number:
+	X>=0.	[single][if !emptyname]
+#price
+ Content:
+	Is a number.	[property number]
+	Not a number.	[error]
+ Value:
+	Less than zero.	[error][if number][property negative]
+	Zero.			[if number && !negative]
+	Greater than zero.	[if number && !negative]
+ Format:
+	Two decimal places.	[if number && !negative]
+	Not two decimal places.	[if number && !negative]	
+#MinBid
+ Value:
+	Zero.	[single][if number && !negative][property noMin]
+	Equal to price.	[error][if number && !negative && !noMin]
+	>= dollar more.	[if number && !negative && !noMin][property min]
+ Format:
+	Two decimal places.	[if number && !negative]
+	Not two decimal places.	[if number && !negative]
+#MaxBid
+ Value:
+	Zero.	[property noMax]
+	Equal to price.	[error][if number && !negative && !noMax]
+	Equal to minBid.	[error][if number && !negative && !noMax]
+	Greater than both.	[if number && !negative][property max]
+ Format:
+	Two decimal places.	[if number && !negative]
+	Not two decimal places.	[if number && !negative]
+#Description
+ Presence of description:
+	Empty.	[error]
+	Not empty.
+#Category
+ Presence of category:
+	Empty.	[error]
+	Not empty.
+#Seller
+ Presence of user logged in:
+	False.	[error]
+	True.
+
+		
+
+	
+
+		
+

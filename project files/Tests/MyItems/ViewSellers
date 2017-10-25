@@ -1,0 +1,16 @@
+#User
+ Is logged in:
+	True.	[property logged]
+	False.	[error]
+ Is premium:
+	True.	[property premium]
+	False.	[error]
+
+#Seller
+ Presence in the list:
+	True.	[if logged && premium]
+	False.	[error]
+ Seller exists:
+	True.	[if logged && premium]
+	False.	[error]
+

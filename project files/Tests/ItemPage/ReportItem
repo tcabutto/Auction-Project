@@ -1,0 +1,14 @@
+#Complaint
+ User submitting:
+	Unregistered.	[error]
+	Registered.
+ Category:
+	Empty.	[error][property emptycategory]
+	Not empty.
+ Message:
+	No message.	[if !emptycategory][error]
+	Message.	[if !emptycategory]
+ Sent complaint:
+	Not sent.	[error]
+	Sent.
+ 

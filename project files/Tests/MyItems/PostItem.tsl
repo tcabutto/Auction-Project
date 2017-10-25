@@ -1,0 +1,524 @@
+
+Test Case 1  		<single>
+   Size :  Empty
+
+
+Test Case 2  		<single>
+   Number :  X>=0
+
+
+Test Case 3  		<error>
+   Content :  Not a number
+
+
+Test Case 4  		<error>
+   Value :  Less than zero
+
+
+Test Case 5  		<single>
+   Value :  Zero
+
+
+Test Case 6  		<error>
+   Value :  Equal to price
+
+
+Test Case 7  		<error>
+   Value :  Equal to price
+
+
+Test Case 8  		<error>
+   Value :  Equal to minBid
+
+
+Test Case 9  		<error>
+   Presence of description :  Empty
+
+
+Test Case 10 		<error>
+   Presence of category :  Empty
+
+
+Test Case 11 		<error>
+   Presence of user logged in :  False
+
+
+Test Case 12 		(Key = 2.0.1.2.1.3.1.1.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 13 		(Key = 2.0.1.2.1.3.1.1.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 14 		(Key = 2.0.1.2.1.3.1.4.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Greater than both
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 15 		(Key = 2.0.1.2.1.3.1.4.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Greater than both
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 16 		(Key = 2.0.1.2.1.3.2.1.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 17 		(Key = 2.0.1.2.1.3.2.1.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 18 		(Key = 2.0.1.2.1.3.2.4.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Greater than both
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 19 		(Key = 2.0.1.2.1.3.2.4.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Greater than both
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 20 		(Key = 2.0.1.2.2.3.1.1.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 21 		(Key = 2.0.1.2.2.3.1.1.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 22 		(Key = 2.0.1.2.2.3.1.4.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Greater than both
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 23 		(Key = 2.0.1.2.2.3.1.4.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Greater than both
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 24 		(Key = 2.0.1.2.2.3.2.1.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 25 		(Key = 2.0.1.2.2.3.2.1.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 26 		(Key = 2.0.1.2.2.3.2.4.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Greater than both
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 27 		(Key = 2.0.1.2.2.3.2.4.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Greater than both
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 28 		(Key = 2.0.1.3.1.3.1.1.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 29 		(Key = 2.0.1.3.1.3.1.1.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 30 		(Key = 2.0.1.3.1.3.1.4.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Greater than both
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 31 		(Key = 2.0.1.3.1.3.1.4.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Greater than both
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 32 		(Key = 2.0.1.3.1.3.2.1.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 33 		(Key = 2.0.1.3.1.3.2.1.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 34 		(Key = 2.0.1.3.1.3.2.4.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Greater than both
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 35 		(Key = 2.0.1.3.1.3.2.4.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Greater than both
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 36 		(Key = 2.0.1.3.2.3.1.1.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 37 		(Key = 2.0.1.3.2.3.1.1.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 38 		(Key = 2.0.1.3.2.3.1.4.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Greater than both
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 39 		(Key = 2.0.1.3.2.3.1.4.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Two decimal places
+   Value                      :  Greater than both
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 40 		(Key = 2.0.1.3.2.3.2.1.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Zero
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 41 		(Key = 2.0.1.3.2.3.2.1.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Zero
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 42 		(Key = 2.0.1.3.2.3.2.4.1.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Greater than both
+   Format                     :  Two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+
+
+Test Case 43 		(Key = 2.0.1.3.2.3.2.4.2.2.2.2.)
+   Size                       :  Not empty
+   Number                     :  <n/a>
+   Content                    :  Is a number
+   Value                      :  Greater than zero
+   Format                     :  Not two decimal places
+   Value                      :  >= dollar more
+   Format                     :  Not two decimal places
+   Value                      :  Greater than both
+   Format                     :  Not two decimal places
+   Presence of description    :  Not empty
+   Presence of category       :  Not empty
+   Presence of user logged in :  True
+

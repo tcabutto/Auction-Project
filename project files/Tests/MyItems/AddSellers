@@ -1,0 +1,19 @@
+#Manager
+Is logged in:
+	True.	[property logged]
+	False.	[error]
+ Is premium:
+	True.	[property premium]
+	False.	[error]
+
+#Seller
+ Exists:
+	True.	[property seller]
+	False.	[single]
+
+ Request to add seller:
+	Sent.	[if premium && seller]
+	Failed.	[error]
+ Seller accepts to have you as manager:
+	True.
+	False.	[single]

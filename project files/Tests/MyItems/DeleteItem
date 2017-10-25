@@ -1,0 +1,20 @@
+#User
+ Logged in:
+	True.	[property logged]
+	False.	[error]
+ Presence of owner:
+	Is owner.	[if logged][property owner]
+	Is manager.	[if logged][property manager]
+	Neither owner or manager.	[error]
+
+#Item
+ Chosen:
+	Yes.	[if owner || manager][property chosen]
+	No.	[single]
+ Exists:
+	Yes.	[if chosen]
+	No.	[error]
+ Confirm delete:
+	Yes.
+	No.
+ 
